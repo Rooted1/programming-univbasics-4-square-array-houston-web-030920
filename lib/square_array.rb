@@ -7,7 +7,7 @@ def square_array(array)
   while array[counter] do
     puts "Exponent:"
     new_numbers.push(array[counter] ** 2 )
-    p new_numbers
     counter += 1
   end 
+  p new_numbers
 end
