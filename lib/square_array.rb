@@ -8,7 +8,6 @@ def square_array(array)
     new_numbers << array[counter] ** 2 
     counter += 1
   end 
-  
-  puts "Exponent:"
+
   p new_numbers
 end
