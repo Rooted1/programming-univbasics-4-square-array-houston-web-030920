@@ -10,5 +10,5 @@ def square_array(array)
   end 
   
   puts "Exponent:"
-  puts new_numbers
+  p new_numbers
 end
