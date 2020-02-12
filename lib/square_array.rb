@@ -5,8 +5,8 @@ def square_array(array)
   new_numbers = []
   
   while array[counter] do
-    new_numbers << array[counter] ** array[counter]
-    puts new_numbers
+    puts "Exponent:"
+    new_numbers.push(array[counter] ** array[counter])
     counter += 1
   end 
 end
