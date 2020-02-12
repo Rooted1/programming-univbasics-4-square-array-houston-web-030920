@@ -9,5 +9,5 @@ def square_array(array)
     counter += 1
   end 
 
-  p new_numbers
+  p "Exponents: " new_numbers
 end
