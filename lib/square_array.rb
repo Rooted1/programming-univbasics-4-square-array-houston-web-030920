@@ -1,9 +1,11 @@
 def square_array(array)
-  # your code here
   
-  counter = log10
+  counter = 0 
+  
+  new_numbers = []
+  
   while array[counter] do
-    puts array[counter] ** array[counter]
+    new_numbers << array[counter] ** array[counter]
     counter += 1
   end 
 end
